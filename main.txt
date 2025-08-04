@@ -289,7 +289,7 @@ async def restart_handler(_, m):
 async def start_command(bot: Client, message: Message):
     random_image_url = random.choice(image_urls)
     caption = (
-        f"𝐇𝐞𝐥𝐥𝐨 𝐃𝐞𝐚𝐫 👋!\n\n➠ 𝐈 𝐚𝐦 𝐚 𝐓𝐞𝐱𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 𝐁𝐨𝐭\n\n➠ Can Extract Videos & PDFs From Your Text File and Upload to Telegram!\n\n➠ For Guide Use Command /help 📖\n\n➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : {CREDIT} 🦁"
+        f"𝐇𝐞𝐥𝐥𝐨 𝐃𝐞𝐚𝐫 👋!\n\n➠ 𝐈 𝐚𝐦 𝐚 𝐓𝐞𝐱𝐭 𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫 𝐁𝐨𝐭\n\n➠ Can Extract Videos & PDFs From Your Text File and Upload to Telegram!\n\n➠ For Guide Use Command /help 📖\n\n➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : {𝐌𝐫𝐒𝐭𝐫𝐚𝐧𝐠𝐞𝐫™} 🦁"
     )
     await bot.send_photo(
         chat_id=message.chat.id,
@@ -352,7 +352,7 @@ async def txt_handler(client: Client, m: Message):
         f"• Send any link for auto-extraction\n"  
         f"• Supports batch processing\n\n"  
         f"╭────────⊰◆⊱────────╮\n"   
-        f" ➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : {CREDIT} 💻\n"
+        f" ➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : {𝐌𝐫𝐒𝐭𝐫𝐚𝐧𝐠𝐞𝐫™} 💻\n"
         f"╰────────⊰◆⊱────────╯\n"
         )
     )                    
@@ -1038,7 +1038,7 @@ async def text_handler(bot: Client, m: Message):
                 elif 'encrypted.m' in url:    
                     Show = f"**⚡Dᴏᴡɴʟᴏᴀᴅɪɴɢ Sᴛᴀʀᴛᴇᴅ...⏳**\n" \
                            f"🔗𝐋𝐢𝐧𝐤 » {url}\n" \
-                           f"✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ {CREDIT}"
+                           f"✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ {𝐌𝐫𝐒𝐭𝐫𝐚𝐧𝐠𝐞𝐫™}"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.download_and_decrypt_video(url, cmd, name, appxkey)  
                     filename = res_file  
@@ -1050,7 +1050,7 @@ async def text_handler(bot: Client, m: Message):
                 elif 'drmcdni' in url or 'drm/wv' in url:
                     Show = f"**⚡Dᴏᴡɴʟᴏᴀᴅɪɴɢ Sᴛᴀʀᴛᴇᴅ...⏳**\n" \
                            f"🔗𝐋𝐢𝐧𝐤 » {url}\n" \
-                           f"✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ {CREDIT}"
+                           f"✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ {𝐌𝐫𝐒𝐭𝐫𝐚𝐧𝐠𝐞𝐫™}"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.decrypt_and_merge_video(mpd, keys_string, path, name, raw_text2)
                     filename = res_file
@@ -1062,7 +1062,7 @@ async def text_handler(bot: Client, m: Message):
                 else:
                     Show = f"**⚡Dᴏᴡɴʟᴏᴀᴅɪɴɢ Sᴛᴀʀᴛᴇᴅ...⏳**\n" \
                            f"🔗𝐋𝐢𝐧𝐤 » {url}\n" \
-                           f"✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ {CREDIT}"
+                           f"✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ {𝐌𝐫𝐒𝐭𝐫𝐚𝐧𝐠𝐞𝐫™}"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
