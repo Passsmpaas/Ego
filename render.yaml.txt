@@ -9,12 +9,12 @@ services:
     autoDeploy: false
     envVars:
       - key: BOT_TOKEN
-        sync: false
+        sync: true
       - key: API_ID
-        sync: false
+        sync: true
       - key: API_HASH
-        sync: false
+        sync: true
       #- key: WEBHOOK
-        #sync: false
+        #sync: true
       - key: PORT
         value: 8000  # Default port value, update if needed
