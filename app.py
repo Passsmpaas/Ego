@@ -1,4 +1,6 @@
 from flask import Flask
+import threading
+from pyrogram import Client
 app = Flask(__name__)
 
 @app.route('/')
@@ -48,5 +50,34 @@ def hello_world():
 """
 
 
+
+# Flask app
+app = Flask(__name__)
+
+@app.route('/')
+def home():
+    return "✅ Bot is running on Render!"
+
+# Pyrogram Bot setup
+bot = Client(
+    "my_bot",
+    api_id=123456,  # apna api_id dalna
+    api_hash="your_api_hash",  # apna api_hash dalna
+    bot_token="your_bot_token"  # apna bot_token dalna
+)
+
+def run_bot():
+    bot.run()
+
+# Flask + Bot dono ek sath start karna
+if __name__ == "__main__":
+    # Bot ko background thread me run karo
+    threading.Thread(target=run_bot).start()
+
+    # Flask ko Render ke port par run karo
+    import os
+    port = int(os.environ.get("PORT", 8080))
+    app.run(host="0.0.0.0", port=port)
+	
 if __name__ == "__main__":
     app.run()
