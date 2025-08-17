@@ -514,7 +514,7 @@ async def txt_handler(client: Client, m: Message):
         f"┣👤 𝐔𝐬𝐞𝐫 𝐀𝐮𝐭𝐡𝐞𝐧𝐭𝐢𝐜𝐚𝐭𝐢𝐨𝐧: **(OWNER)**\n\n" 
         f"┣ /addauth xxxx -Add User telegram number\n"
         f"┣/addauth xxxx -📱whatsapp 📞number\n"
-        f"┣🤖 B0T OWNER ━➣ [STRANGER](https://t.me/Strangerboy27_bot_strangerboy)\n"
+        f"┣🤖 B0T OWNER ━➣ 𝐌𝐑𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑™\n"
         f"┣ /rmauth xxxx – Remove User ID\n"  
         f"┣ /users – Total User List\n"
         f"╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n"
