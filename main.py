@@ -59,17 +59,17 @@ photozip = 'https://envs.sh/cD_.jpg'
 
 
 # Inline keyboard for start command
-BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="https://t.me/i_am_back143")]])
+BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="https://t.me/Belonger_bot")]])
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="👨‍💻 🌐 OWNER ID 🌐", url="https://t.me/Strangerboy27_bot_strangerboy"),
-            InlineKeyboardButton(text="🛠️ GROUP 🙋‍♂️", url="https://t.me/+aBB53vou0Z5hZWI1"),
+            InlineKeyboardButton(text="👨‍💻 OWNER ID ", url="https://t.me/Belonger_bot"),
+            InlineKeyboardButton(text="🛠️ GROUP 🙋‍♂️", url="https://t.me/+aBB53vou079hZWI1"),
         ],
         [
-            InlineKeyboardButton(text="💠 CRUSH 💠", url="https://i.ibb.co/ccV44ZRS/STRANGER-BOY.jpg"),
+            InlineKeyboardButton(text="🧭 CHANNEL ", url="https://t.me/+KQCIzmDE6e5mMzdl"),
         ],[
-            InlineKeyboardButton(text=" 💠 INSTAGRAM🙋‍♂️💠", url="https://www.instagram.com/reel/DKfu0A0tSHO/?igsh=MzRlODBiNWFlZA=="),
+            InlineKeyboardButton(text=" 🧭 INSTAGRAM🙋‍♂️", url="https://www.instagram.com/rishi_swm__?igsh=MTVtZWp6cnQxczVkZw=="),
         ],
     ]
 )
@@ -372,28 +372,28 @@ async def start(bot, m: Message):
             f"🌟 Welcome {m.from_user.first_name}! 🌟\n\n" +
             f"Great! You are a premium member!\n"
             f"Use Command : /help to get started 🌟\n\n"
-            f"╭━━━ ₹🌐STRANGER🙋‍♂️💠 ━━━━➣\n"
-            f"┣⪼ 🔄 System Status:\n"
-            f"┃  ├─⪼ ✅ Security verified\n"
-            f"┃  ├─⪼ ✅ Data synced\n"
+            f"╭━━━ 🧑‍💻 𝐌𝐑𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑™ ━━━━➣\n"
+            f"┣ 🔄 System Status:\n"
+            f"┃  ├─⪼ 🔐 Security verified\n"
+            f"┃  ├─⪼ 🌀 Data synced\n"
             f"┃  ╰─⪼ 🔍 Checking access...\n"
-            f"┣⪼ 📊 Progress: ▰▰▰▰▰▰▰▰▰▱ 99.9%\n"
-            f"├─⪼ 😶‍🌫️ Gems मिटाए 🤯\n"
+            f"┣ 📊 : ▰▰▰▰▰▰▰▰▰▱ 99.9%\n"
+            f"┣ ⚠️ सब्र का फल मीठा होता है\n"
             f"╰━━━━━━━━━━━━━━━━━━━━➣\n"
-            f"If you face any problem contact -  [STRANGER BOYS](https://t.me/Strangerboy27_bot_strangerboy)\n", disable_web_page_preview=True, reply_markup=BUTTONSCONTACT
+            f"If you face any problem contact -  [𝐌𝐑𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑™](https://t.me/Belonger_bot\n", disable_web_page_preview=True, reply_markup=BUTTONSCONTACT
         )
     else:
         await asyncio.sleep(2)
         await start_message.edit_text(
            f" 🎉 Welcome {m.from_user.first_name} to DRM Bot! 🎉\n\n"
-            f"╭━━━₹🌐STRANGER🙋‍♂️💠━━━━➣\n"
-            f"┣⪼ 🔄 System Status:\n"
-            f"┃  ├─⪼ ✅ Security verified\n"
-            f"┃  ├─⪼ ✅ Data synced\n"
+            f"╭━━━ 🧑‍💻 𝐌𝐑𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑™ ━━━━➣\n"
+            f"┣ 🔄 System Status:\n"
+            f"┃  ├─⪼ 🔐 Security verified\n"
+            f"┃  ├─⪼ 🌀 Data synced\n"
             f"┃  ╰─⪼ 🔍 Checking access...\n"
-            f"┣⪼ 📊 Progress: ▰▰▰▰▰▰▰▰▰▱ 99.9%\n"
-            f"├─⪼ 😶‍🌫️ Gems मिटाए 🤯\n"
-            f"┣⪼ 👨‍💻Login tg number ━➣ Get Aurth\n"
+            f"┣ 📊 : ▰▰▰▰▰▰▰▰▰▱ 99.9%\n"
+            f"┣ ⚠️ सब्र का फल मीठा होता हैं \n"
+            f"┣ 🌳Login tg number ━➣ Get Aurth\n"
             f"╰━━━━━━━━━━━━━━━━━━━━➣\n"
            f"𝓨𝓸𝓾 𝓬𝓪𝓷 𝓱𝓪𝓿𝓮 𝓪𝓬𝓬𝓮𝓼𝓼 𝓽𝓸 𝓭𝓸𝔀𝓷𝓵𝓸𝓪𝓭 𝓪𝓵𝓵 𝓝𝓸𝓷-𝓓𝓡𝓜+𝓐𝓔𝓢 𝓔𝓷𝓬𝓻𝔂𝓹𝓽𝓮𝓭 𝓤𝓡𝓛𝓼 🔐 𝓲𝓷𝓬𝓵𝓾𝓭𝓲𝓷𝓰\n\n"
            f"Use Command : /help to get started 🌟\n\n"
@@ -401,13 +401,13 @@ async def start(bot, m: Message):
            f"┣⪼ ⚠️ Access Restricted\n"
            f"┣⪼ 📝 Status: Free User\n"
            f"┣⪼ 👨‍💻Login tg number ━➣ Get Aurth\n"
-           f"┣⪼ 📱Login tg number ━➣📱whatsapp number\n"
+           f"┣⪼ 🌳Login tg number ━➣📱whatsapp number\n"
            f"┣⪼ ❌ Downloads: Not Available\n"
            f"┃\n"
            f"┣⪼ 💡 To Download Videos:\n"
-           f"┃  ├─⪼ 🌟 Purchase Premium Plan\n"
-           f"┃  ├─⪼ 📞 Contact Admin\n"
-           f"┃  ╰─⪼ 🤖 B0T OWNER ━➣ [STRANGER](https://t.me/Strangerboy27_bot_strangerboy)\n"
+           f"┃  ├─ 🌟 Purchase Premium Plan\n"
+           f"┃  ├─ 📞 Contact Admin\n"
+           f"┃  ╰─ 🤖 B0T OWNER ━➣ [𝐌𝐑𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑™](https://t.me/Belonger_bot)\n"
            f"┃\n"
            f"┣⪼ ✨ Benefits:\n"
            f"┃  ├─⪼ 🚀 Instant Downloads\n"
@@ -417,7 +417,7 @@ async def start(bot, m: Message):
            f"┃  ╰─⪼ 📋 /info - Upgrade Plan & More Details\n"
            f"╰━━━━━━━━━━━━━━━━➣\n"
            f"🚀 𝒴𝑜𝓊 𝒶𝓇𝑒 𝓃𝑜𝓉 𝓈𝓊𝒷𝓈𝒸𝓇𝒾𝒷𝑒𝒹 𝓉𝑜 𝒶𝓃𝓎 𝓅𝓁𝒶𝓃 𝓎𝑒𝓉! \n\n"
-           f"<blockquote>💵 Monthly Plan: 🎉 ₹299🙋‍♂️💠</blockquote>\n\n"
+           f"<blockquote>💵 Monthly Plan: 🎉 ₹299 </blockquote>\n\n"
            f"𝐼𝒻 𝓎𝑜𝓊 𝓌𝒶𝓃𝓉 𝓉𝑜 𝒷𝓊𝓎 𝓂𝑒𝓂𝒷𝑒𝓇𝓈𝒽𝒾𝓅 𝑜𝒻 𝓉𝒽𝑒 𝒷𝑜𝓉, 𝒻𝑒𝑒𝓁 𝒻𝓇𝑒𝑒 𝓉𝑜 𝒸𝑜𝓃𝓉𝒶𝒸𝓉 𝓉𝒽𝑒 𝐵𝑜𝓉 𝒜𝒹𝓂𝒾𝓃.\n", disable_web_page_preview=True, reply_markup=keyboard
     )
 
@@ -426,30 +426,30 @@ async def id_command(client, message: Message):
     chat_id = message.chat.id
     await message.reply_text(
         f" 🎉 Welcome {message.from_user.first_name} to DRM Bot! 🎉\n\n"
-        f"╭━━━₹🌐STRANGER🙋‍♂️💠━━━━━➣\n"
-        f"┣⪼ 🔄 System Status:\n"
-        f"┃  ├─⪼ ✅ Security verified\n"
-        f"┃  ├─⪼ ✅ Data synced\n"
-        f"┃  ╰─⪼ 🔍 Checking access...\n"
-        f"┣⪼ 📊 Progress: ▰▰▰▰▰▰▰▰▰▱ 99.9%\n"
-        f"├─⪼ 😶‍🌫️ Gems मिटाए 🤯\n"
-        f"┣⪼ 👨‍💻Login tg number ━➣ Get Aurth\n"
+        f"╭━━━ 🧑‍💻 𝐌𝐑𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑™ ━━━━━➣\n"
+        f"┣ 🔄 System Status:\n"
+        f"┃  ├─ 🔐 Security verified\n"
+        f"┃  ├─ 🌀 Data synced\n"
+        f"┃  ╰─ 🔍 Checking access...\n"
+        f"┣ 📊: ▰▰▰▰▰▰▰▰▰▱ 99.9%\n"
+        f"┣ ⚠️ सब्र का फल मीठा होता है \n"
+        f"┣ 🌳Login tg number ━➣ Get Aurth\n"
         f"╰━━━━━━━━━━━━━━━━━━━━➣\n"
            f"𝓨𝓸𝓾 𝓬𝓪𝓷 𝓱𝓪𝓿𝓮 𝓪𝓬𝓬𝓮𝓼𝓼 𝓽𝓸 𝓭𝓸𝔀𝓷𝓵𝓸𝓪𝓭 𝓪𝓵𝓵 𝓝𝓸𝓷-𝓓𝓡𝓜+𝓐𝓔𝓢 𝓔𝓷𝓬𝓻𝔂𝓹𝓽𝓮𝓭 𝓤𝓡𝓛𝓼 🔐 𝓲𝓷𝓬𝓵𝓾𝓭𝓲𝓷𝓰\n\n"
            f"Use Command : /help to get started 🌟\n\n"
            f"╭━━━━━━ FREE USER ━━━━━━➣\n"
-           f"┣⪼ ⚠️ Access Restricted\n"
-           f"┣⪼ 📝 Status: Free User\n"
-           f"┣⪼ 👨‍💻Login tg number ━➣ Get Aurth\n"
-           f"┣⪼ 📱Login tg number ━➣📱whatsapp number\n"
-           f"┣⪼ ❌ Downloads: Not Available\n"
+           f"┣ ⚠️ Access Restricted\n"
+           f"┣ 📝 Status: Free User\n"
+           f"┣ 👨‍💻Login tg number ━➣ Get Aurth\n"
+           f"┣ 🌳Login tg number ━➣📱whatsapp number\n"
+           f"┣ ❌ Downloads: Not Available\n"
            f"┃\n"
-           f"┣⪼ 💡 To Download Videos:\n"
+           f"┣ 💡 To Download Videos:\n"
            f"┃  ├─⪼ 🌟 Purchase Premium Plan\n"
            f"┃  ├─⪼ 📞 Contact Admin\n"
-           f"┃  ╰─⪼ 🤖 B0T OWNER ━➣ [STRANGER](https://t.me/Strangerboy27_bot_strangerboy)\n"
+           f"┃  ╰─⪼ 🤖 B0T OWNER ━➣ [𝐌𝐑𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑™](https://t.me/Belonger_bot)\n"
            f"┃\n"
-           f"┣⪼ ✨ Benefits:\n"
+           f"┣ ✨ Benefits:\n"
            f"┃  ├─⪼ 🚀 Instant Downloads\n"
            f"┃  ├─⪼ 📺 HD Quality Videos\n"
            f"┃  ├─⪼ 🔒 Secure Access\n"
@@ -457,7 +457,7 @@ async def id_command(client, message: Message):
            f"┃  ╰─⪼ 📋 /info - Upgrade Plan & More Details\n"
            f"╰━━━━━━━━━━━━━━━━➣\n"
 
-           f"<blockquote>💵 Monthly Plan: 🎉 ₹299 🙋‍♂️💠</blockquote>\n\n"
+           f"<blockquote>💵 Monthly Plan: 🎉 ₹299 </blockquote>\n\n"
            f"𝐼𝒻 𝓎𝑜𝓊 𝓌𝒶𝓃𝓉 𝓉𝑜 𝒷𝓊𝓎 𝓂𝑒𝓂𝒷𝑒𝓇𝓈𝒽𝒾𝓅 𝑜𝒻 𝓉𝒽𝑒 𝒷𝑜𝓉, 𝒻𝑒𝑒𝓁 𝒻𝓇𝑒𝑒 𝓉𝑜 𝒸𝑜𝓃𝓉𝒶𝒸𝓉 𝓉𝒽𝑒 𝐵𝑜𝓉 𝒜𝒹𝓂𝒾𝓃.\n", disable_web_page_preview=True, reply_markup=BUTTONSCONTACT
     )  
 
@@ -471,12 +471,12 @@ async def info(bot: Client, update: Message):
     
     text = (
         f"╭────────────────╮\n"
-        f"│✨ **Your Telegram Info**✨ \n"
+        f"│🧩 **Your Telegram Info**✨ \n"
         f"├────────────────\n"
-        f"├🔹**Name :** `{update.from_user.first_name} {update.from_user.last_name if update.from_user.last_name else 'None'}`\n"
-        f"├🔹**User ID :** @{update.from_user.username}\n"
-        f"├🔹**TG ID :** `{update.from_user.id}`\n"
-        f"├🔹**Profile :** {update.from_user.mention}\n"
+        f"├☢️**Name :** `{update.from_user.first_name} {update.from_user.last_name if update.from_user.last_name else 'None'}`\n"
+        f"├☢️**User ID :** @{update.from_user.username}\n"
+        f"├☢️**TG ID :** `{update.from_user.id}`\n"
+        f"├☢️**Profile :** {update.from_user.mention}\n"
         f"╰────────────────╯"
     )
     
@@ -490,42 +490,42 @@ async def info(bot: Client, update: Message):
 async def txt_handler(client: Client, m: Message):
     await bot.send_message(m.chat.id, text= (
         f"╭━━━━━━━✦✧✦━━━━━━━╮\n"
-        f" 💠[STRANGER BOTS](https://i.ibb.co/ZRvCxd5g/STRANGER-BOY.jpg)💠\n"
+        f" 🧑‍💻[𝐌𝐑𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑™]\n"
         f"╰━━━━━━━✦✧✦━━━━━━━╯\n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n" 
         f"╭━━━━━━━━━━━━━ ❀° ━━━╮\n"
-        f"┣⪼📌 𝗠𝗮𝗶𝗻 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀:\n\n"  
-        f"┣⪼ /start – Bot Status Check\n"
-        f"┣⪼ /drm – Extract from .txt (Auto)\n"
-        f"┣⪼ /y2t – YouTube → .txt Converter\n"  
-        f"┣⪼ /t2t – Text → .txt Generator\n" 
-        f"┣⪼ /stop – Cancel Running Task\n"
+        f"┣♀️ 𝗠𝗮𝗶𝗻 𝗙𝗲𝗮𝘁𝘂𝗿𝗲𝘀:\n\n"  
+        f"┣ /start – Bot Status Check\n"
+        f"┣ /drm – Extract from .txt (Auto)\n"
+        f"┣ /y2t – YouTube → .txt Converter\n"  
+        f"┣ /t2t – Text → .txt Generator\n" 
+        f"┣ /stop – Cancel Running Task\n"
         f"╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ \n"
         f"╭━━━━━━━━━━━━━ ❀° ━━━╮\n"
-        f"┣⪼⚙️ 𝗧𝗼𝗼𝗹𝘀 & 𝗦𝗲𝘁𝘁𝗶𝗻𝗴𝘀: \n\n" 
-        f"┣⪼ /cookies – Update YT Cookies\n" 
-        f"┣⪼ /id – Get Chat/User ID\n"  
-        f"┣⪼ /info – User Details\n"  
-        f"┣⪼ /logs – View Bot Activity\n"
+        f"┣⚙️ 𝗧𝗼𝗼𝗹𝘀 & 𝗦𝗲𝘁𝘁𝗶𝗻𝗴𝘀: \n\n" 
+        f"┣ /cookies – Update YT Cookies\n" 
+        f"┣ /id – Get Chat/User ID\n"  
+        f"┣ /info – User Details\n"  
+        f"┣ /logs – View Bot Activity\n"
         f"╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n"
         f"╭━━━━━━━━━━━━━ ❀° ━━━╮\n"
-        f"┣⪼👤 𝐔𝐬𝐞𝐫 𝐀𝐮𝐭𝐡𝐞𝐧𝐭𝐢𝐜𝐚𝐭𝐢𝐨𝐧: **(OWNER)**\n\n" 
-        f"┣⪼ /addauth xxxx -Add User telegram number\n"
-        f"┣⪼/addauth xxxx -📱whatsapp 📞number\n"
-        f"┣⪼🤖 B0T OWNER ━➣ [STRANGER](https://t.me/Strangerboy27_bot_strangerboy)\n"
-        f"┣⪼ /rmauth xxxx – Remove User ID\n"  
-        f"┣⪼ /users – Total User List\n"
+        f"┣👤 𝐔𝐬𝐞𝐫 𝐀𝐮𝐭𝐡𝐞𝐧𝐭𝐢𝐜𝐚𝐭𝐢𝐨𝐧: **(OWNER)**\n\n" 
+        f"┣ /addauth xxxx -Add User telegram number\n"
+        f"┣/addauth xxxx -📱whatsapp 📞number\n"
+        f"┣🤖 B0T OWNER ━➣ [STRANGER](https://t.me/Strangerboy27_bot_strangerboy)\n"
+        f"┣ /rmauth xxxx – Remove User ID\n"  
+        f"┣ /users – Total User List\n"
         f"╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n"
         f"╭━━━━━━━━━━━━━ ❀° ━━━╮\n"
-        f"┣⪼💡 𝗡𝗼𝘁𝗲:\n\n"  
-        f"┣⪼• Send any link for auto-extraction\n"  
-        f"┣⪼• Supports batch processing\n\n"
+        f"┣💡 𝗡𝗼𝘁𝗲:\n\n"  
+        f"┣• Send any link for auto-extraction\n"  
+        f"┣• Supports batch processing\n\n"
         f"╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n"
         f"╭────────⊰◆⊱────────╮\n"   
-        f" ➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : [STRANGER BOY](https://i.ibb.co/ccV44ZRS/STRANGER-BOY.jpg) 💻\n"
+        f" ➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : 🧑‍💻[𝐌𝐑𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑™](https://i.ibb.co/p6hmPYM7/IMG-20250305-105933.jpg) 💻\n"
         f"╰────────⊰◆⊱────────╯\n"
         )
     )                    
@@ -741,13 +741,16 @@ async def txt_handler(bot: Client, m: Message):
                 cmd = f'yt-dlp -f "{ytf}" "{url}" -o "{name}.mp4"'
 
             try:
-                cc = f'[🎥]Vid Id : {str(count).zfill(3)}\n**Video Title :** `{name1} [{res}p] .mkv`\n```-┈━═.•°✅ STRANGER BOTS VIDEO ✅°•.═━┈-\n{b_name}\nExtracted by ➤ [{CR}](https://i.ibb.co/7xm7cXyg/STRANGER-BOY.jpg)```\n'
-                cc1 = f'[📕]Pdf Id : {str(count).zfill(3)}\n**File Title :** `{name1} .pdf`\n```-┈━═.•°✅ STRANGER BOTS PDF ✅°•.═━┈-\n{b_name}\nExtracted by ➤ [{CR}](https://i.ibb.co/ZRvCxd5g/STRANGER-BOY.jpg)```\n'
-                cczip = f'[📁]Zip Id : {str(count).zfill(3)}\n**Zip Title :** `{name1} .zip`\n```-┈━═.•°✅ STRANGER zip ✅°•.═━┈-\n{b_name}\nExtracted by ➤ [{CR}](https://i.ibb.co/ccV44ZRS/STRANGER-BOY.jpg)```\n' 
-                ccimg = f'[🖼️]Img Id : {str(count).zfill(3)}\n**Img Title :** `{name1} .jpg`\n```-┈━═.•°✅ STRANGER pic ✅°•.═━┈-\n{b_name}\nExtracted by ➤ [{CR}](https://i.ibb.co/7xm7cXyg/STRANGER-BOY.jpg)```\n'
-                ccm = f'[🎵]Audio Id : {str(count).zfill(3)}\n**Audio Title :** `{name1} .mp3`\n```-┈━═.•°✅ STRANGER mp3 ✅°•.═━┈-\n{b_name}\nExtracted by ➤ [{CR}](https://i.ibb.co/ZRvCxd5g/STRANGER-BOY.jpg)```\n'
-                cchtml = f'[🌐]Html Id : {str(count).zfill(3)}\n**Html Title :** `{name1} .html`\n```-┈━═.•°✅ STRANGER HTML ✅°•.═━┈-\n{b_name}\nExtracted by ➤ [{CR}](https://i.ibb.co/ccV44ZRS/STRANGER-BOY.jpg)```\n'
-                  
+                cc = f'╭━━━━━━━━━━━╮\n**🎥 VIDEO ID :** {str(count).zfill(3)}.\n╰━━━━━━━━━━━╯\n\n**📄 Title : {name1}** ({res}) ᴍʀꜱᴛʀᴀɴɢᴇʀ™.mkv\n\n**🔖 Batch :** `{b_name}`\n\n**📥 Extracted By :** {CR}'
+                cpw = f'╭━━━━━━━━━━━╮\n**🎥 VIDEO ID :** {str(count).zfill(3)}.\n╰━━━━━━━━━━━╯\n\n**📄 Title : {name1}** ({res}) ᴍʀꜱᴛʀᴀɴɢᴇʀ™.mkv\n\n**🔗Video Url :** <a href="{url}">__Click Here to Watch Video__</a>\n\n\n**🔖 Batch :** `{b_name}`\n\n**📥 Extracted By :** {CR}'
+                cyt = f'╭━━━━━━━━━━━╮\n**🎥 VIDEO ID :** {str(count).zfill(3)}.\n╰━━━━━━━━━━━╯\n\n**📄 Title : {name1}** ({res}) ᴍʀꜱᴛʀᴀɴɢᴇʀ™.mp4\n\n**🔗 Video Url :** <a href="{url}">__Click Here to Watch Video__</a>\n\n**🔖 Batch :** `{b_name}`\n\n**📥 Extracted By :** {CR}'
+                cpvod = f'╭━━━━━━━━━━━╮\n**🎥 VIDEO ID :** {str(count).zfill(3)}.\n╰━━━━━━━━━━━╯\n\n**📄 Title : {name1}** ({res}) ᴍʀꜱᴛʀᴀɴɢᴇʀ™.mkv\n\n**🔗Video Url :** <a href="{url}">__Click Here to Watch Video__</a>\n\n\n**🔖 Batch :** `{b_name}`\n\n**📥 Extracted By :** {CR}'
+                cimg = f'╭━━━━━━━━━━━╮\n**🖼️ IMAGE ID :** {str(count).zfill(3)}.\n╰━━━━━━━━━━━╯\n\n**📄 Title : {name1}** ᴍʀꜱᴛʀᴀɴɢᴇʀ™.jpg\n\n**🔖 Batch :** `{b_name}`\n\n**📥 Extracted By :** {CR}'
+                cczip = f'╭━━━━━━━━━━━╮\n**📁 FILE ID :** {str(count).zfill(3)}.\n╰━━━━━━━━━━━╯\n\n**📄 Title : {name1}** ᴍʀꜱᴛʀᴀɴɢᴇʀ™.zip\n\n**🔖 Batch :** `{b_name}`\n\n**📥 Extracted By :** {CR}'
+                cc1 = f'╭━━━━━━━━━━━╮\n**📁 FILE ID :** {str(count).zfill(3)}.\n╰━━━━━━━━━━━╯\n\n**📄 Title : {name1}** ᴍʀꜱᴛʀᴀɴɢᴇʀ™.pdf\n\n**🔖 Batch :** `{b_name}`\n\n**📥 Extracted By :** {CR}'
+                ccm = f'╭━━━━━━━━━━━╮\n**🎵 AUDIO ID :** {str(count).zfill(3)}.\n╰━━━━━━━━━━━╯\n\n**📄 Title : {name1}** ({res}) ᴍʀꜱᴛʀᴀɴɢᴇʀ™.mp3\n\n**🔖 Batch :** `{b_name}`\n\n**📥 Extracted By :** {CR}'
+                cchtml = f'╭━━━━━━━━━━━╮\n**🌐 HTML ID :** {str(count).zfill(3)}.\n╰━━━━━━━━━━━╯\n\n**📄 Title : {name1}** ({res}) ᴍʀꜱᴛʀᴀɴɢᴇʀ™.html\n\n**🔖 Batch :** `{b_name}`\n\n**📥 Extracted By :** {CR}'
+                
                 if "drive" in url:
                     try:
                         ka = await helper.download(url, name)
@@ -1149,9 +1152,9 @@ async def text_handler(bot: Client, m: Message):
                         pass
                                 
                 elif 'encrypted.m' in url:    
-                    Show = f"**『 WELCOME STRANGER 』🙋 ...⏳**\n" \
+                    Show = f"**𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐌𝐑𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑™ ...⏳**\n" \
                            f"🔗𝐋𝐢𝐧𝐤 » {url}\n" \
-                           f"🙆‍♂️ 𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 🤷‍♂️ 『 WELCOME STRANGER 』🙋"
+                           f"🙆‍♂️ 𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲  𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐌𝐑𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑™ "
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.download_and_decrypt_video(url, cmd, name, appxkey)  
                     filename = res_file  
@@ -1161,9 +1164,9 @@ async def text_handler(bot: Client, m: Message):
                     pass
 
                 elif 'drmcdni' in url or 'drm/wv' in url:
-                    Show = f"**『 WELCOME STRANGER 』🙋 ...⏳**\n" \
+                    Show = f"** 𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐌𝐑𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑™  ...⏳**\n" \
                            f"🔗𝐋𝐢𝐧𝐤 » {url}\n" \
-                           f"🙆‍♂️ 𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 🤷‍♂️ 『 WELCOME STRANGER 』🙋"
+                           f"🙆‍♂️ 𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 𝐌𝐑𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑™ "
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.decrypt_and_merge_video(mpd, keys_string, path, name, raw_text2)
                     filename = res_file
@@ -1173,9 +1176,9 @@ async def text_handler(bot: Client, m: Message):
                     pass
      
                 else:
-                    Show = f"**『 WELCOME STRANGER 』🙋 ...⏳**\n" \
+                    Show = f"**𝐖𝐄𝐋𝐂𝐎𝐌𝐄 𝐌𝐑𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑™ ...⏳**\n" \
                            f"🔗𝐋𝐢𝐧𝐤 » {url}\n" \
-                           f"🙆‍♂️ 𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 🤷‍♂️ 『 WELCOME STRANGER 』🙋"
+                           f"🙆‍♂️ 𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 𝐌𝐑𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑™"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
