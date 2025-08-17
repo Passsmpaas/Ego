@@ -3,6 +3,11 @@
 import logging
 from logging.handlers import RotatingFileHandler
 from datetime import datetime, timedelta
+import logging
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s [%(levelname)s] %(name)s: %(message)s"
+)
 
 # Set up logging
 logging.basicConfig(
@@ -18,3 +23,4 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 # Initialize logger
 logger = logging.getLogger()
+
