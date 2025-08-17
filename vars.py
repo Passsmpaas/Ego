@@ -6,7 +6,7 @@ from os import environ
 
 # Telegram API / Bot
 API_ID = int(environ.get("API_ID", "22470912"))
-API_HASH = environ.get("API_HASH", "511be78079ed5d4bd4c967bc7b5ee023"))
+API_HASH = environ.get("API_HASH", "511be78079ed5d4bd4c967bc7b5ee023")
 BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 # Owner / Auth users
@@ -25,3 +25,4 @@ RETRY = int(os.environ.get("RETRY", "3"))                  # Retries per segment
 CONNECT_TIMEOUT = int(os.environ.get("CONNECT_TIMEOUT", "15"))
 READ_TIMEOUT = int(os.environ.get("READ_TIMEOUT", "60"))
 CHUNK_LIMIT_PER_HOST = int(os.environ.get("CHUNK_LIMIT_PER_HOST", "8"))
+
