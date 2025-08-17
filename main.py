@@ -52,13 +52,6 @@ app = Flask(__name__)
 def home():
     return "Bot is running!"
 
-def run_bot():
-    bot.run()
-
-if __name__ == "__main__":
-    threading.Thread(target=run_bot).start()
-    app.run(host="0.0.0.0", port=8080)
-    
 # Initialize the bot
 bot = Client(
     "bot",
@@ -66,6 +59,13 @@ bot = Client(
     api_hash=API_HASH,
     bot_token=BOT_TOKEN
 )
+
+def run_bot():
+    bot.run()
+
+if __name__ == "__main__":
+    threading.Thread(target=run_bot).start()
+    app.run(host="0.0.0.0", port=8080)
 
 cookies_file_path = os.getenv("cookies_file_path", "youtube_cookies.txt")
 api_url = "http://master-api-v3.vercel.app/"
