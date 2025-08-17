@@ -1,3 +1,6 @@
+from utils import progress_bar, download_file   # utils se import
+from vars import BOT_TOKEN, API_ID, API_HASH, AUTH_USERS
+from urllib.parse import urljoin
 import os
 import re
 import sys
