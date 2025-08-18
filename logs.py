@@ -3,7 +3,7 @@
 import logging
 from logging.handlers import RotatingFileHandler
 from datetime import datetime, timedelta
-import logging
+
 # Set up logging
 logging.basicConfig(
     level=logging.ERROR,
