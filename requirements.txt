@@ -34,7 +34,3 @@ werkzeug==2.0.2
 itsdangerous==2.0.1
 youtube-dl
 pytube
-
-# 🔥 New packages for optimized downloader + Render health check
-fastapi==0.115.0
-uvicorn==0.30.6
