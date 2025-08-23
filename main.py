@@ -380,7 +380,7 @@ async def start(bot, m: Message):
             f"┣ 📊 : ▰▰▰▰▰▰▰▰▰▱ 99.9%\n"
             f"┣ ⚠️ सब्र का फल मीठा होता है\n"
             f"╰━━━━━━━━━━━━━━━━━━━━➣\n"
-            f"If you face any problem contact -  [𝐌𝐑𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑™](https://t.me/Belonger_bot\n", disable_web_page_preview=True, reply_markup=BUTTONSCONTACT
+            f"If you face any problem contact -  [𝐌𝐑𝐒𝐓𝐑𝐀𝐍𝐆𝐄𝐑™](https://t.me/Belonger_bot)\n", disable_web_page_preview=True, reply_markup=BUTTONSCONTACT
         )
     else:
         await asyncio.sleep(2)
