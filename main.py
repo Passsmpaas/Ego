@@ -873,7 +873,7 @@ async def txt_handler(bot: Client, m: Message):
                     continue
      
                 else:
-                    Show = f"__**-┈━═.•°✅ SAMAY YATRI Downloader ✅°•.═━┈-**\n<pre><code>{str(count).zfill(3)}) {name1}</code></pre>"
+                    Show = f"__**█▓▒▒░░░ＭＲＳＴＲＡＮＧＥＲ™░░░▒▒▓█**\n<pre><code>{str(count).zfill(3)}) {name1}</code></pre>"
                     prog = await bot.send_message(channel_id, Show, disable_web_page_preview=True)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
