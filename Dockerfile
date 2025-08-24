@@ -1,29 +1,28 @@
-FROM python:3.9-alpine
+# Use Python slim image (better performance & prebuilt packages)
+FROM python:3.10-slim
 
+# Set working directory
 WORKDIR /app
 
+# Install only required system dependencies
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    ffmpeg aria2 unzip wget curl ca-certificates tzdata \
+    && rm -rf /var/lib/apt/lists/*
+
+# Download prebuilt Bento4 mp4decrypt binary (no source compilation)
+RUN wget -q https://github.com/axiomatic-systems/Bento4/releases/download/v1.6.0-639/mp4decrypt -O /usr/local/bin/mp4decrypt \
+    && chmod +x /usr/local/bin/mp4decrypt
+
+# Copy all project files
 COPY . .
 
-RUN apk add --no-cache \
-    gcc \
-    libffi-dev \
-    musl-dev \
-    ffmpeg \
-    aria2 \
-    make \
-    g++ \
-    cmake \
-    unzip \
-    build-base \
-    linux-headers && \
-    wget -q https://github.com/axiomatic-systems/Bento4/archive/v1.6.0-639.zip && \
-    unzip v1.6.0-639.zip && \
-    cd Bento4-1.6.0-639 && \
-    mkdir build && cd build && cmake .. && make -j$(nproc) && \
-    cp mp4decrypt /usr/local/bin/ && cd ../.. && rm -rf Bento4-1.6.0-639 v1.6.0-639.zip
+# Upgrade pip and install Python dependencies
+RUN pip3 install --no-cache-dir --upgrade pip \
+    && pip3 install --no-cache-dir -r sainibots.txt \
+    && pip3 install --no-cache-dir -U yt-dlp
 
-RUN pip3 install --no-cache-dir --upgrade pip && \
-    pip3 install --no-cache-dir --upgrade -r sainibots.txt && \
-    python3 -m pip install -U yt-dlp gunicorn
+# Optional: Set timezone (adjust if needed)
+ENV TZ=Asia/Kolkata
 
-CMD ["sh", "-c", "gunicorn app:app & exec python3 main.py"]
+# Default command to run the application
+CMD ["sh", "-c", "gunicorn app:app & python3 main.py"]
